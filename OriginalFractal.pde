@@ -14,7 +14,7 @@ public void myFractal(int x, int y, int w)
   ellipse(x, y, w/12, w);
   if (w > 10)
   {
-    fill((int)(Math.random()*255), (int)(Math.random()*255), (int)(Math.random()*255));
+    fill((int)(Math.random()*255), 224, 224);
     myFractal(x - 30, y, w/2);
     myFractal(x + 30, y, w/2);
   }
