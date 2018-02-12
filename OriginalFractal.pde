@@ -15,7 +15,7 @@ public void myFractal(int x, int y, int w)
   if (w > 10)
   {
     fill((int)(Math.random()*255), (int)(Math.random()*255), (int)(Math.random()*255));
-    myFractal(x - 20, y, w/2);
-    myFractal(x + 20, y, w/2);
+    myFractal(x - 30, y, w/2);
+    myFractal(x + 30, y, w/2);
   }
 }
